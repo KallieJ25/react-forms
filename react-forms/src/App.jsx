@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import SignUpForm from './components/SignUpForm';
-import Authenticate from './components/Authenticate'; 
+import Authenticate from './components/Authenticate';
+import SignUpForm from "./components/SignUpForm";
 
 function App() {
-  
+  // Create token and setToken state variables with initial value null
   const [token, setToken] = useState(null);
 
   return (
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App;
+
